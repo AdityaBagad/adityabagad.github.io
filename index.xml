@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aditya Bagad</title>
+    <link>https://adityabagad.github.io/</link>
+    <description>Recent content on Aditya Bagad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://adityabagad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Top Git Commands</title>
+      <link>https://adityabagad.github.io/posts/git_commands/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityabagad.github.io/posts/git_commands/</guid>
+      <description>  git clone
+This command allows you to clone repository.
+  </description>
+    </item>
+    
+    <item>
+      <title>Investment Management System</title>
+      <link>https://adityabagad.github.io/projects/investment_system/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityabagad.github.io/projects/investment_system/</guid>
+      <description> This web application is made for Mutual Fund Distributors. They get the live NAV of the mutual funds from the Official AMFI website.
+  The distributors can keep a track of the funds allocated to their clients. They can also download reports of particular clients in the form of pdf.
+  Technologies - Python Django Chart.js SQLite3
+ </description>
+    </item>
+    
+    <item>
+      <title>Vehicle Traffic Analysis and Analytics System</title>
+      <link>https://adityabagad.github.io/projects/vehicle_analytics/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityabagad.github.io/projects/vehicle_analytics/</guid>
+      <description> In this project vehicles are detected from a surveillance video camera and then classified into HMV, LMV and SMV using Python and OpenCV API.
+  Vehicle data is stored in a MySQL database. Analytics Dashboard is built using Flask and Google Charts are used to render graphs.
+  Technologies Used - Python Flask OpenCV Google Charts
+ </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://adityabagad.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityabagad.github.io/about/</guid>
+      <description>Hey There! I am Aditya Bagad, Welcome to my small space on the web.
+I hold a degree in B.E. Computer Science and I’m currently working as a Data Engineer Intern. I love to code and I code primarily in Python language. I am extremely passionate about solving problems and this passion of mine has driven me towards exploring and building full stack python web/data applications. I&amp;rsquo;m mostly interested in Big Data Technologoes and DevOps.</description>
+    </item>
+    
+  </channel>
+</rss>
