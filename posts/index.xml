@@ -1,27 +1,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Aditya Bagad</title>
-        <link>https://adityabagad.github.io/posts/</link>
+        <link>https://adityabagad.github.io/adityabagad.github.io/posts/</link>
         <description>Recent content in Posts on Aditya Bagad</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0000</lastBuildDate>
-        <atom:link href="https://adityabagad.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://adityabagad.github.io/adityabagad.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Top Git Commands</title>
-            <link>https://adityabagad.github.io/posts/git_commands/</link>
-            <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+            <title>Git Commands</title>
+            <link>https://adityabagad.github.io/adityabagad.github.io/posts/git_commands/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>https://adityabagad.github.io/posts/git_commands/</guid>
-            <description>  git clone
-This command allows you to clone repository.
-  </description>
+            <guid>https://adityabagad.github.io/adityabagad.github.io/posts/git_commands/</guid>
+            <description>git clone &amp;laquo;repo&amp;raquo; - This command clones a remote repository onto your local machine.
+E.g.git clone https://github.com/AdityaBagad/Password-Strength-Analysis.git  - Password Strength Analysis repository is cloned to your local machine.
+  git add &amp;laquo;files/directory&amp;raquo; - This command is used to save most recent changes to staging area so that they can be tracked.
+E.g.git add hello.txt - This command will add hello.txt file to the staging area.
+E.g.git add --all - This command will add files in the current directory.</description>
             <content type="html"><![CDATA[<ol>
 <li>
-<p><code>git clone</code></p>
-<p>This command allows you to clone repository.</p>
+<p><strong>git clone &laquo;repo&raquo;</strong> - This command clones a remote repository onto your local machine.</p>
+<p><em>E.g.</em><code>git clone https://github.com/AdityaBagad/Password-Strength-Analysis.git </code> - Password Strength Analysis repository is cloned to your local machine.</p>
+</li>
+<li>
+<p><strong>git add &laquo;files/directory&raquo;</strong> - This command is used to save most recent changes to staging area so that they can be tracked.</p>
+<p><em>E.g.</em><code>git add hello.txt</code> - This command will add hello.txt file to the staging area.</p>
+<p><em>E.g.</em><code>git add --all</code> - This command will add files in the current directory. The <code>--all</code>flag in the command specifies that everything under the current directory and the files under that directory should be tracked.</p>
+</li>
+<li>
+<p><strong>git commit -m &laquo;message&raquo;</strong> - After adding your files to the staging area we have to commit them. We have to add those changes and reflect them in the remote repository.</p>
+<p><em>E.g.</em><code>git commit -m &quot;Fixed the Add to Cart UI bug&quot;</code> - The <code>-m</code> flag stands for message. A commit message must be meaningful.</p>
+<p><em>E.g.</em><code>git commit --amend - m &quot;My New Commit&quot;</code> - If you accidentally made a mistake in the commit message, you can change it using the <code>--amend</code> flag.</p>
+</li>
+<li>
+<p><strong>git status</strong> - This command allows you to view the files that are being tracked or are in the staging area.</p>
+</li>
+<li>
+<p><strong>git branch</strong> - This command is used to see the list of all branches in your repository or you can create a new branch with this command. Your current active branch is highlighted with a <code>*</code> prefix.</p>
+<p><em>E.g.</em><code>git branch</code> - Lists all the branches in your repo.</p>
+<p><em>E.g.</em><code>git branch new_feature</code> - Creates a new branch named &ldquo;new_feature&rdquo; but it is not switched to the newly created branch.</p>
+<p><em>E.g.</em><code>git branch -d new_feature</code> - Delete the &ldquo;new_feature&rdquo; branch.</p>
+</li>
+<li>
+<p><strong>git checkout &laquo;branch-name&raquo;</strong> - This command is used to switch to the branch name specified.</p>
+<p><em>E.g.</em><code>git checkout new_feature</code> - Switches to the new_feature branch</p>
+<p><em>E.g.</em><code>git checkout -b another_feature</code> - This creates a new branch &ldquo;another_feature&rdquo; and it switches to the branch created. The <code>-b</code> flag is used to create a new branch &ldquo;another_feature&rdquo;.</p>
+</li>
+<li>
+<p><strong>git push &laquo;remote-name&raquo; &laquo;branch-name&raquo;</strong> - This command is used to push your changes into the remote repository from your local repository.</p>
+<p><em>E.g.</em><code>git push origin new_feature</code> - This pushes your new_feature branch to remote repository.</p>
+</li>
+<li>
+<p><strong>git pull</strong> - This command is used to get all the latest changes  from the remote repository.</p>
+<p><em>E.g.</em><code>git pull</code> - This updates your current working local branch i.e. it syncs the remote repository branch to your local machine.</p>
 </li>
 </ol>
 ]]></content>

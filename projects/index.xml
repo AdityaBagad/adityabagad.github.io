@@ -2,31 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Aditya Bagad</title>
-    <link>https://adityabagad.github.io/projects/</link>
+    <link>https://adityabagad.github.io/adityabagad.github.io/projects/</link>
     <description>Recent content in Projects on Aditya Bagad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://adityabagad.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://adityabagad.github.io/adityabagad.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Investment Management System</title>
-      <link>https://adityabagad.github.io/projects/investment_system/</link>
+      <link>https://adityabagad.github.io/adityabagad.github.io/projects/investment_system/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://adityabagad.github.io/projects/investment_system/</guid>
-      <description> This web application is made for Mutual Fund Distributors. They get the live NAV of the mutual funds from the Official AMFI website.
-  The distributors can keep a track of the funds allocated to their clients. They can also download reports of particular clients in the form of pdf.
-  Technologies - Python Django Chart.js SQLite3
- </description>
+      <guid>https://adityabagad.github.io/adityabagad.github.io/projects/investment_system/</guid>
+      <description>This web application is made by keeping in mind the needs of Mutual Fund Distributors as they are the primary consumers of the application.
+  The distributors can keep a track of the funds allocated to their clients. They can visualize investors assets through dashboard.
+  MF Distributor can perform CRUD (Create, Read, Update, Delete) operations on their Investors and their Funds Allocated. They get the Live NAV (Net Asset Value) directly from the AMFI India Website</description>
     </item>
     
     <item>
       <title>Vehicle Traffic Analysis and Analytics System</title>
-      <link>https://adityabagad.github.io/projects/vehicle_analytics/</link>
+      <link>https://adityabagad.github.io/adityabagad.github.io/projects/vehicle_analytics/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://adityabagad.github.io/projects/vehicle_analytics/</guid>
-      <description> In this project vehicles are detected from a surveillance video camera and then classified into HMV, LMV and SMV using Python and OpenCV API.
+      <guid>https://adityabagad.github.io/adityabagad.github.io/projects/vehicle_analytics/</guid>
+      <description> In this project vehicles are detected from a surveillance video camera and then classified into HMV, LMV and SMV using Python and OpenCV API. YOLO algorithm is used for real time object detection.
   Vehicle data is stored in a MySQL database. Analytics Dashboard is built using Flask and Google Charts are used to render graphs.
   Technologies Used - Python Flask OpenCV Google Charts
  </description>
